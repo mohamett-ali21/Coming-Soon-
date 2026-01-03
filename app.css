@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url(../Classs-Assingment/images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50px);
+    color: #fff;
+}
+.content h1{
+    font-size: 64px;
+font-weight: 500;
+}
+.content h1 span{
+    color: #ff3753;
+}
+.lounch{
+    display: flex;
+}
+.lounch div{
+    flex-basis: 100px;
+}
+.lounch div p{
+    font-size: 64px;
+    margin-bottom: -14px;
+}
+button{
+    padding: 12px 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6%;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+button img{
+    width: 15px;
+    margin-left: 10px;
+}
+.rock{
+    position: absolute;
+    bottom: 0%;
+    width: 120px;
+    right: 18%;
+    animation:rock 4s linear infinite ;
+}
+
+@keyframes rock{
+    0%{
+        bottom: 0%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+#res{
+    
+    background: linear-gradient(360deg,#0066cc,#389bbc);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2.7;  
+}
